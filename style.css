@@ -1,7 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-h1 {
-	background: aliceblue;
-	color: darkcyan;
+body {
 	font-family: Roboto, monospace;
+}
+
+ul {
+	display: flex;
+	padding: initial;
+	margin: initial;
+	gap: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	justify-content: space-between;
+}
+
+.header, .footer, .hero {
+	background: #1f2937;
+	display: flex;
+	align-items: center;
+	padding: 0px 200px;
+}
+
+.quote {
+	background: #e5e7eb;
+	font-weight: 300;
+	font-size: 36px;
+	color: #1f2937;
+}
+
+.maintxt {
+	font-weight: 900;
+}
+
+.logo, .link {
+	padding: 10px 0px;
+}
+
+a:link, a:visited, .hero .subtxt {
+	color: #e5e7eb;
+}
+
+.hero .maintxt, .header .logo {
+	color: #f9faf8;
+}
+
+.header .logo {
+	font-size: 24px;
+}
+
+.hero .maintxt {
+	font-size: 48px;
+}
+
+.info .maintxt {
+	font-size: 36px;
+}
+
+button {
+	color: #3886f6;
+}
+
+.action {
+	background: #3886f6;
+	color: #f9faf8;
 }
